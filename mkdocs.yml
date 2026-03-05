@@ -1,6 +1,46 @@
-site_name: Cosas IAW
+site_name: Práctica de MkDocs IDH # Cambia esto por el nombre de tu proyecto
+site_url: https://ignaciodiaz-H.github.io/ignaciodiaz-H.github.io-Practica-MkDocs/
+site_author: Ignacio Díaz Del Horno
+
+theme:
+  name: material
+  language: es  
+  palette: 
+    
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Pasar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Pasar a modo claro
+  features:
+    - navigation.tabs        
+    - navigation.sections    
+    - navigation.top         
+    - search.suggest         
+    - content.code.copy      
+
+
+
 nav:
   - Home: index.md
   - Practica-5.2: Practica-5.2.md
   - Practica-5.4: Practica-5.4.md
-  - Contact: contact.md
+  - Acerca de: acercade.md
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

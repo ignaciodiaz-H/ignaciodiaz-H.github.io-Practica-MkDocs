@@ -119,11 +119,10 @@ DOMAIN=practicaiawonline.zapto.org
 ##
 - Con todo esto es suficiente para poder levnatar nuestro contenedor usando un **docker compose up -d** y poner a correr todos los servicios, ademas podemos echar un vistazo al archivo completo si fuera necesario.
 
-[Archivo doceker completo](docker-compose.yml).
 
 ## Pruebas Visuales
 
-![](img/1.png)<br>
-![](img/2.png)<br>
-![](img/3.png)<br>
-![](img/4.png)<br>
+![](assets/Practica-5.2/1.png)<br>
+![](assets/Practica-5.2/2.png)<br>
+![](assets/Practica-5.2/3.png)<br>
+![](assets/Practica-5.2/4.png)<br>
